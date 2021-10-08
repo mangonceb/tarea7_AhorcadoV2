@@ -1,4 +1,4 @@
-alert("Bienvenido al ahorcado. Escribe la palabra y pulsa jugar. Escribe la letra que quieres buscar y da a espacio para saber si has fallado o acertado");
+alert("Bienvenido al ahorcado. Escribe la palabra y pulsa jugar. Escribe la letra que quieres buscar");
 
 function soloLetras(event) {
     var key = event.keyCode;
