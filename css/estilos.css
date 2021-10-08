@@ -1,0 +1,36 @@
+body {
+    display: block;
+    text-align: center;
+    background-color: #3f294d;
+}
+
+section {
+    text-align: left;
+    border-radius: 5px;
+    border-style: inset;
+    background-color: white;
+    color: #3f294d;
+    margin: auto;
+    width: 40%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+header {
+    margin-top: 20px;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    color: white;
+}
+
+input{
+    margin-left: 100px;
+}
+
+
+p{
+    text-indent: 30px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Juego ahorcado</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Juego del Ahorcado curso 2021/22</h1>
+        </header>
+        <section>
+            <article>
+                <!--Se que me dijiste que es mejor para programar el keyup, pero con keyup no me funcionaba el return que devuelve solo letras.
+                Unicamente me ha funcionado keydown-->
+                <p>Palabra <input onkeydown="return soloLetras(event);" type="password" id="palabra"></p>
+                <p>Letra <input type="text" maxlength="1" onkeydown="return soloLetras(event);" id="letra"></p>
+                <p>Aciertos <input type="text" id="aciertos" readonly="readonly"></p>
+                <p>Fallos <input type="text" id="fallos" readonly="readonly"></p>
+                <p>Contador de fallos <span id="contadorFallos"></span></p>
+                <input type="button" onclick="jugar()" value="Jugar">  
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p id="SantaCatalina">CIPF Santa Catalina DAW curso 2020-2021</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
